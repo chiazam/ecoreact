@@ -6,6 +6,7 @@ export const statc = {
     email:'mhhasanul@gmail.com',
     phone:'(12345)67890',
     lang:'English',
-    coin:'USD'
+    coin:'USD',
+    comp_name: 'Hekto'
 
 };

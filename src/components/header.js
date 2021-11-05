@@ -7,9 +7,9 @@ export function Header(props) {
 
         <header>
 
-            <section className="bg-purple-700 text-white">
+            <section className="bg-purple-700 text-white flex">
 
-                <section className="flex">
+                <section className="flex m-auto">
 
                     <Symtext sym={statc.img.envlp_symb} text={statc.email} />
 
@@ -18,6 +18,12 @@ export function Header(props) {
                     <Symtext sym={statc.img.arrow_symb} rev={true} text={statc.lang} />
 
                     <Symtext sym={statc.img.arrow_symb} rev={true} text={statc.coin} />
+
+                    <Symtext sym={statc.img.user_symb} rev={true} text="Login" />
+
+                    <Symtext sym={statc.img.love_symb} rev={true} text="Wishlist" />
+
+                    <Symtext sym={statc.img.cart_symb} rev={true} text="" />
 
                 </section>
 
