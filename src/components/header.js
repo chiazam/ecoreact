@@ -57,7 +57,7 @@ export function Header(props) {
 
                         <button className="p-1 flex items-center border-0 bg-pink-600 outline-none">
 
-                            <img alt src={statc.img.sach_symb} />
+                            <img alt="" src={statc.img.sach_symb} />
 
                         </button>
 

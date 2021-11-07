@@ -6,7 +6,7 @@ export function Symtext(props) {
         
             <section className="flex p-1 items-center">
             
-                <img alt src={props.sym} />
+                <img src={props.sym} alt="" />
             
             </section>
             
