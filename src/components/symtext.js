@@ -1,6 +1,6 @@
 export function Symtext(props) {
 
-    return(<section className={(props.rev === true ? 'flex-row-reverse' : '')+" flex p-2"}>
+    return(<section className={(props.rev === true ? 'flex-row-reverse' : '')+" flex p-1"}>
 
         {(props.sym !== false ? 
         
