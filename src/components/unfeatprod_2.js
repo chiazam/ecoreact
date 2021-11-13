@@ -11,6 +11,12 @@ export function Unfeatprod_2(props) {
 
     let bg_color_opp = "bg-white";
 
+    let w ="w-56";
+
+    let wrap= "";
+
+    let img_h =" h-48";
+
     if (props.active === true) {
 
         bg_color_opp = "bg-gray-100";
@@ -19,9 +25,23 @@ export function Unfeatprod_2(props) {
 
     }
 
+    if(props.lin === true){
+
+        txt_color1 = "text-purple-600";
+
+        txt_color2 = "text-gray-600";
+
+        w = "p-1 shadow-md border border-gray-100 mx-1 rounded-md w-36";
+
+        wrap= " flex-wrap";
+
+        img_h =" h-40";
+
+    }
+
     return (<>
 
-        <section className="mx-1 w-56">
+        <section className={w+" mx-1"}>
 
             {(props.active === true) ? (
 
@@ -45,11 +65,11 @@ export function Unfeatprod_2(props) {
 
             <section className={bg_color}>
 
-                <img className="m-auto w-full h-48" src={props.cover} alt="" />
+                <img className={"m-auto w-full"+img_h} src={props.cover} alt="" />
 
             </section>
 
-            <section className="flex text-sm">
+            <section className={"flex text-sm"+wrap}>
 
                 <section className={txt_color2 + " p-1"}>{props.name}</section>
 

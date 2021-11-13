@@ -86,6 +86,20 @@ export function Featprod(props) {
 
             <Sofa_1st/>
 
+            <section className="font-bold text-xl text-purple-800 p-1 text-center">Trending Products</section>
+
+            <section className="flex justify-center p-1">
+
+                <Unfeatprod_2 lin={true} active={false} price_2="$26.00" cover={statc.img.chair_9} name="Cantilever chair" price="$40.00" />
+
+                <Unfeatprod_2 lin={true} active={false} price_2="$26.00" cover={statc.img.chair_10} name="Cantilever chair" price="$40.00" />
+
+                <Unfeatprod_2 lin={true} active={false} price_2="$26.00" cover={statc.img.chair_11} name="Cantilever chair" price="$40.00" />
+
+                <Unfeatprod_2 lin={true} active={false} price_2="$26.00" cover={statc.img.chair_7} name="Cantilever chair" price="$40.00" />
+
+            </section>
+
         </>
 
     )
