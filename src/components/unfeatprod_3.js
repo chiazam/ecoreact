@@ -1,5 +1,3 @@
-import { statc } from "./static";
-import { Symtext } from "./symtext";
 
 export function Unfeatprod_3(props) {
 

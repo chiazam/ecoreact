@@ -4,6 +4,7 @@ import { Dotter } from "./dotter";
 import { Symtext } from "./symtext";
 import { Unfeatprod_2 } from "./unfeatprod_2";
 import { Unfeatprod_3 } from "./unfeatprod_3";
+import { Sofa_1st } from "./sofa_1st";
 
 export function Featprod(props) {
 
@@ -72,7 +73,7 @@ export function Featprod(props) {
             <section className="font-bold text-xl text-purple-800 p-1 text-center">What Shopex Offer!</section>
 
             <section className="flex justify-center p-1">
-                
+
                 <Unfeatprod_3 cover={statc.img.supp_1} name="24/7 Support" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida." />
 
                 <Unfeatprod_3 cover={statc.img.supp_2} name="24/7 Support" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida." />
@@ -82,6 +83,8 @@ export function Featprod(props) {
                 <Unfeatprod_3 cover={statc.img.supp_4} name="24/7 Support" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida." />
 
             </section>
+
+            <Sofa_1st/>
 
         </>
 

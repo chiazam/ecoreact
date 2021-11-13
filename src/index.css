@@ -12,6 +12,30 @@ code {
     monospace;
 } */
 
+.li-shine li {
+  list-style: none;
+}
+
+.li-shine li::before {
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.li-shine .red::before{
+color:red;
+}
+
+.li-shine .blue::before{
+  color:blue;
+}
+
+.li-shine .green::before{
+  color:green;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

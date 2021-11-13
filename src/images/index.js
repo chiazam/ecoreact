@@ -25,5 +25,8 @@ export const img = {
     supp_2: require(home_route+"supp_2.svg").default,
     supp_3: require(home_route+"supp_3.svg").default,
     supp_4: require(home_route+"supp_4.svg").default,
+    sofa_1: require(home_route+"sofa_1.svg").default,
+    sofa_2: require(home_route+"sofa_2.svg").default,
+    sofa_3: require(home_route+"sofa_3.svg").default,
 
 };
