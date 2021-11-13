@@ -5,6 +5,8 @@ import { Symtext } from "./symtext";
 import { Unfeatprod_2 } from "./unfeatprod_2";
 import { Unfeatprod_3 } from "./unfeatprod_3";
 import { Sofa_1st } from "./sofa_1st";
+import { Collection_1 } from "./collection_1";
+import { Tiny_side } from "./tiny_side";
 
 export function Featprod(props) {
 
@@ -84,7 +86,7 @@ export function Featprod(props) {
 
             </section>
 
-            <Sofa_1st/>
+            <Sofa_1st />
 
             <section className="font-bold text-xl text-purple-800 p-1 text-center">Trending Products</section>
 
@@ -99,6 +101,26 @@ export function Featprod(props) {
                 <Unfeatprod_2 lin={true} active={false} price_2="$26.00" cover={statc.img.chair_7} name="Cantilever chair" price="$40.00" />
 
             </section>
+
+            <section className="flex justify-center p-1">
+
+                <Collection_1 active={true} cover={statc.img.timer_1} prompt="Shop Now" name="23% off in all products" />
+
+                <Collection_1 active={false} cover={statc.img.drawer_1} prompt="View Collection" name="23% off in all products" />
+
+                <section className="">
+
+                    <Tiny_side active={false} cover={statc.img.chair_12} prompt="$32.00" name="Executive Seat chair" />
+
+                    <Tiny_side active={false} cover={statc.img.chair_13} prompt="$32.00" name="Executive Seat chair" />
+
+                    <Tiny_side active={false} cover={statc.img.chair_14} prompt="$32.00" name="Executive Seat chair" />
+
+                </section>
+
+            </section>
+
+            <section className="font-bold text-xl text-purple-800 p-1 text-center">Discount Item</section>
 
         </>
 

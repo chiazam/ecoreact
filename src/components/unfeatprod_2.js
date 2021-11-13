@@ -27,9 +27,9 @@ export function Unfeatprod_2(props) {
 
     if(props.lin === true){
 
-        txt_color1 = "text-purple-600";
+        txt_color1 = "text-gray-600";
 
-        txt_color2 = "text-gray-600";
+        txt_color2 = "text-purple-600";
 
         w = "p-1 shadow-md border border-gray-100 mx-1 rounded-md w-36";
 

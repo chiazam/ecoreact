@@ -1,5 +1,4 @@
 import { statc } from "./static";
-import { Symtext } from "./symtext";
 
 
 export function Sofa_1st(props) {

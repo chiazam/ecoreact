@@ -24,6 +24,9 @@ export const img = {
     chair_9: require(home_route+"chair_9.svg").default,
     chair_10: require(home_route+"chair_10.svg").default,
     chair_11: require(home_route+"chair_11.svg").default,
+    chair_12: require(home_route+"chair_12.svg").default,
+    chair_13: require(home_route+"chair_13.svg").default,
+    chair_14: require(home_route+"chair_14.svg").default,
     supp_1: require(home_route+"supp_1.svg").default,
     supp_2: require(home_route+"supp_2.svg").default,
     supp_3: require(home_route+"supp_3.svg").default,
@@ -31,5 +34,7 @@ export const img = {
     sofa_1: require(home_route+"sofa_1.svg").default,
     sofa_2: require(home_route+"sofa_2.svg").default,
     sofa_3: require(home_route+"sofa_3.svg").default,
+    drawer_1: require(home_route+"drawer_1.svg").default,
+    timer_1: require(home_route+"timer_1.svg").default,
 
 };
