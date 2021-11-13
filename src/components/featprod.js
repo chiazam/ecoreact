@@ -7,6 +7,7 @@ import { Unfeatprod_3 } from "./unfeatprod_3";
 import { Sofa_1st } from "./sofa_1st";
 import { Collection_1 } from "./collection_1";
 import { Tiny_side } from "./tiny_side";
+import { Sofa_2nd } from "./sofa_2nd";
 
 export function Featprod(props) {
 
@@ -121,6 +122,22 @@ export function Featprod(props) {
             </section>
 
             <section className="font-bold text-xl text-purple-800 p-1 text-center">Discount Item</section>
+
+            <section className="flex">
+
+                <section className="flex m-auto">
+
+                    <Symtext text={<section className="border-b border-pink-600 text-pink-600">Wood Chair</section>} rev={true} sym={false} />
+
+                    <Symtext text={<section className="text-purple-600">Plastic Chair</section>} rev={true} sym={false} />
+
+                    <Symtext text={<section className="text-purple-600">Sofa Colletion</section>} rev={true} sym={false} />
+
+                </section>
+
+            </section>
+
+            <Sofa_2nd />
 
         </>
 
