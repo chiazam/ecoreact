@@ -8,6 +8,7 @@ import { Sofa_1st } from "./sofa_1st";
 import { Collection_1 } from "./collection_1";
 import { Tiny_side } from "./tiny_side";
 import { Sofa_2nd } from "./sofa_2nd";
+import { Unfeatprod_4 } from "./unfeatprod_4";
 
 export function Featprod(props) {
 
@@ -140,6 +141,18 @@ export function Featprod(props) {
             <Sofa_2nd />
 
             <section className="font-bold text-xl text-purple-800 p-1 text-center">Top Categories</section>
+
+            <section className="flex justify-center p-1">
+
+                <Unfeatprod_4 active={true} cover={statc.img.chair_15} name="Mini LCW Chair" price="$56.00" />
+
+                <Unfeatprod_4 active={false} cover={statc.img.chair_4} name="Mini LCW Chair" price="$56.00" />
+
+                <Unfeatprod_4 active={false} cover={statc.img.chair_9} name="Mini LCW Chair" price="$56.00" />
+
+                <Unfeatprod_4 active={false} cover={statc.img.chair_15} name="Mini LCW Chair" price="$56.00" />
+
+            </section>
 
         </>
 

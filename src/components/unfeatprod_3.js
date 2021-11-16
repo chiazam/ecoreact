@@ -3,7 +3,7 @@ export function Unfeatprod_3(props) {
 
     return (<>
 
-        <section className=" shadow-md border border-gray-100 mx-1 rounded-md w-40">
+        <section className="shadow-md border border-gray-100 mx-1 rounded-md w-40">
 
             <section className="p-1">
 

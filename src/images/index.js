@@ -27,6 +27,7 @@ export const img = {
     chair_12: require(home_route+"chair_12.svg").default,
     chair_13: require(home_route+"chair_13.svg").default,
     chair_14: require(home_route+"chair_14.svg").default,
+    chair_15: require(home_route+"chair_15.svg").default,
     supp_1: require(home_route+"supp_1.svg").default,
     supp_2: require(home_route+"supp_2.svg").default,
     supp_3: require(home_route+"supp_3.svg").default,
