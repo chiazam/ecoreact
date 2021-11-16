@@ -139,6 +139,8 @@ export function Featprod(props) {
 
             <Sofa_2nd />
 
+            <section className="font-bold text-xl text-purple-800 p-1 text-center">Top Categories</section>
+
         </>
 
     )

@@ -5,13 +5,13 @@ export function Sofa_2nd(props) {
 
     return (<>
 
-        <section className="p-16 my-4">
+        <section className="p-10 my-4">
 
             <section className="flex flex-row-reverse justify-center">
 
                 <section className="p-1">
 
-                    <img className="w-96 h-96" src={statc.img.sofa_3} alt="" />
+                    <img className="w-96 h-90" src={statc.img.sofa_3} alt="" />
 
                 </section>
 
