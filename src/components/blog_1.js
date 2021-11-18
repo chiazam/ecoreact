@@ -22,19 +22,19 @@ export function Blog_1(props) {
 
             </section>
 
-            <section className="p-1 flex text-purple-700">
+            <section className="py-1 px-2 flex text-purple-700">
                 
-                <section className="p-1 text-sm">{props.owner}</section>
+                <section className="px-1 text-sm">{props.owner}</section>
                 
-                <section className="p-1 text-sm">{props.date}</section>
+                <section className="px-1 text-sm">{props.date}</section>
                 
             </section>
 
-            <section className={"p-1 text-center font-bold text-sm"+color}>{props.topic}</section>
+            <section className={"py-1 px-2 text-center font-bold text-sm"+color}>{props.topic}</section>
 
-            <section className="p-1 text-center text-sm text-gray-400">{props.desc}</section>
+            <section className="py-1 px-2 text-center text-sm text-gray-400">{props.desc}</section>
 
-            <section className="p-1 flex">
+            <section className="py-1 px-2 flex">
                 
                 <section className={"border-b text-sm"+color+b_color}>Read More</section>
                 
