@@ -10,7 +10,7 @@ export function Tiny_side(props) {
             
             </section>
 
-            <section class="p-1">
+            <section className="p-1">
 
                 <section className="font-bold text-purple-800 text-sm">{props.name}</section>
 

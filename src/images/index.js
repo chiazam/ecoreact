@@ -43,5 +43,6 @@ export const img = {
     blog_2: require(home_route+"blog_2.svg").default,
     blog_3: require(home_route+"blog_3.svg").default,
     lamp_1: require(home_route+"lamp_1.svg").default,
+    "50_off": require(home_route+"50_off.svg").default,
 
 };

@@ -10,7 +10,7 @@ export function Banner_1(props) {
 
             </section>
 
-            <section style={{marginTop: "-10em",marginBottom: "8em"}} class="relative">
+            <section style={{marginTop: "-10em",marginBottom: "8em"}} className="relative">
 
                 <section  className="font-bold text-xl text-purple-800 p-1 text-center"> {props.name} </section>
 

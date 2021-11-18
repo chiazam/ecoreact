@@ -24,9 +24,9 @@ export function Blog_1(props) {
 
             <section className="p-1 flex text-purple-700">
                 
-                <section class="p-1 text-sm">{props.owner}</section>
+                <section className="p-1 text-sm">{props.owner}</section>
                 
-                <section class="p-1 text-sm">{props.date}</section>
+                <section className="p-1 text-sm">{props.date}</section>
                 
             </section>
 

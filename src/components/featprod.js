@@ -22,7 +22,7 @@ export function Featprod(props) {
 
             <Caro_1 desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing
 in phasellus non in justo." topic="New Furniture Collection
-Trends in 2020" quote="Best Furniture For Your Castle...." button="Shop Now" cover_2={[statc.img.sofa_1,statc.img.sofa_2,statc.img.sofa_3]} cover_1={statc.img.lamp_1}/>
+Trends in 2020" quote="Best Furniture For Your Castle...." button="Shop Now" cover_2={[statc.img.sofa_1,statc.img.sofa_2,statc.img.sofa_3]} cover_1={statc.img.lamp_1} cover_3={statc.img["50_off"]}/>
 
             <section className="font-bold text-xl text-purple-800 p-1 text-center">Featured Products</section>
 
