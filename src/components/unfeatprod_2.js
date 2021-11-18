@@ -9,8 +9,6 @@ export function Unfeatprod_2(props) {
 
     let bg_color = "bg-gray-100";
 
-    let bg_color_opp = "bg-white";
-
     let w ="w-56";
 
     let wrap= "";
@@ -18,8 +16,6 @@ export function Unfeatprod_2(props) {
     let img_h =" h-48";
 
     if (props.active === true) {
-
-        bg_color_opp = "bg-gray-100";
 
         bg_color = "bg-white";
 

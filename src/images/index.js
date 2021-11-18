@@ -39,6 +39,7 @@ export const img = {
     timer_1: require(home_route+"timer_1.svg").default,
     banner_1: require(home_route+"banner_1.svg").default,
     ads_1: require(home_route+"ads_1.svg").default,
+    ads_2: require(home_route+"ads_2.svg").default,
     blog_1: require(home_route+"blog_1.svg").default,
     blog_2: require(home_route+"blog_2.svg").default,
     blog_3: require(home_route+"blog_3.svg").default,

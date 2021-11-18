@@ -13,6 +13,8 @@ import { Banner_1 } from "./banner_1";
 import { Ads_1 } from "./ads_1";
 import { Blog_1 } from "./blog_1";
 import { Caro_1 } from "./caro_1";
+import { Footer_1 } from "./footer_1";
+import { Ads_2 } from "./ads_2";
 
 export function Featprod(props) {
 
@@ -180,6 +182,10 @@ over tightly circa horse taped mightly" topic="Top esssential Trends in 2021" />
 over tightly circa horse taped mightly" topic="Top esssential Trends in 2021" />
 
             </section>
+
+            <Footer_1/>
+            
+            <Ads_2 cover={statc.img.ads_2}/>
 
         </>
 
