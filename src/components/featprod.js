@@ -9,12 +9,20 @@ import { Collection_1 } from "./collection_1";
 import { Tiny_side } from "./tiny_side";
 import { Sofa_2nd } from "./sofa_2nd";
 import { Unfeatprod_4 } from "./unfeatprod_4";
+import { Banner_1 } from "./banner_1";
+import { Ads_1 } from "./ads_1";
+import { Blog_1 } from "./blog_1";
+import { Caro_1 } from "./caro_1";
 
 export function Featprod(props) {
 
     return (
 
         <>
+
+            <Caro_1 desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing
+in phasellus non in justo." topic="New Furniture Collection
+Trends in 2020" quote="Best Furniture For Your Castle...." button="Shop Now" cover_2={[statc.img.sofa_1,statc.img.sofa_2,statc.img.sofa_3]} cover_1={statc.img.lamp_1}/>
 
             <section className="font-bold text-xl text-purple-800 p-1 text-center">Featured Products</section>
 
@@ -151,6 +159,25 @@ export function Featprod(props) {
                 <Unfeatprod_4 active={false} cover={statc.img.chair_9} name="Mini LCW Chair" price="$56.00" />
 
                 <Unfeatprod_4 active={false} cover={statc.img.chair_15} name="Mini LCW Chair" price="$56.00" />
+
+            </section>
+
+            <Banner_1 cover={statc.img.banner_1} name="Get Leatest Update By Subscribe 0ur Newslater" button="Shop Now" />
+
+            <Ads_1 cover={statc.img.ads_1} />
+
+            <section className="font-bold text-xl text-purple-800 p-1 text-center">Leatest Blog</section>
+
+            <section className="flex justify-center p-1">
+
+                <Blog_1 active={false} date="21 August,2020" owner="SaberAli" cover={statc.img.blog_1} desc="More off this less hello samlande lied much
+over tightly circa horse taped mightly" topic="Top esssential Trends in 2021" />
+
+                <Blog_1 active={true} date="21 August,2020" owner="Surfauxion" cover={statc.img.blog_2} desc="More off this less hello samlande lied much
+over tightly circa horse taped mightly" topic="Top esssential Trends in 2021" />
+
+                <Blog_1 active={false} date="21 August,2020" owner="SaberAli" cover={statc.img.blog_1} desc="More off this less hello samlande lied much
+over tightly circa horse taped mightly" topic="Top esssential Trends in 2021" />
 
             </section>
 

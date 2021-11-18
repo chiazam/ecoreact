@@ -1,7 +1,5 @@
 export function Unfeatprod_4(props) {
 
-    // View Shop
-
     return (<><section className="m-2">
 
         <section className="flex justify-center items-center shadow-md w-32 h-32 bg-gray-300 rounded-full">

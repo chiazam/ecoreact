@@ -37,5 +37,11 @@ export const img = {
     sofa_3: require(home_route+"sofa_3.svg").default,
     drawer_1: require(home_route+"drawer_1.svg").default,
     timer_1: require(home_route+"timer_1.svg").default,
+    banner_1: require(home_route+"banner_1.svg").default,
+    ads_1: require(home_route+"ads_1.svg").default,
+    blog_1: require(home_route+"blog_1.svg").default,
+    blog_2: require(home_route+"blog_2.svg").default,
+    blog_3: require(home_route+"blog_3.svg").default,
+    lamp_1: require(home_route+"lamp_1.svg").default,
 
 };
